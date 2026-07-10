@@ -19,7 +19,6 @@ Esta versión integra un Dashboard de Observabilidad en Tiempo Real que monitore
 
 ----------------------------------------------------------------------
 # 📁 Estructura del proyecto
- ESTRUCTURA DEL PROYECTO
 ----------------------------------------------------------------------
 
 El repositorio cuenta con una estructura de raíz interna optimizada para despliegues locales:
