@@ -18,7 +18,8 @@ Esta versión integra un Dashboard de Observabilidad en Tiempo Real que monitore
 * Gráficos de Telemetría: Visualización dinámica mediante Matplotlib del consumo de CPU (%) y latencia (segundos) por cada consulta procesada.
 
 ----------------------------------------------------------------------
-2. ESTRUCTURA DEL PROYECTO
+# 📁 Estructura del proyecto
+ ESTRUCTURA DEL PROYECTO
 ----------------------------------------------------------------------
 
 El repositorio cuenta con una estructura de raíz interna optimizada para despliegues locales:
