@@ -1,0 +1,4 @@
+Auditoría de Compra:
+Monto: 600 USD
+Estado: Requiere aprobación del área de Finanzas.
+Acción: Se ha solicitado la aprobación al área de Finanzas y se ha generado este reporte obligatorio.

@@ -1,0 +1,16 @@
+GESTIÓN DE PROVEEDORES
+
+Los proveedores deben estar registrados en el sistema corporativo.
+
+Requisitos:
+
+1. Información tributaria válida.
+2. Datos bancarios actualizados.
+3. Historial sin sanciones.
+
+Si el proveedor no existe en la base corporativa:
+
+- La compra debe ser suspendida.
+- Debe solicitarse validación administrativa.
+
+Los proveedores críticos requieren revisión anual.

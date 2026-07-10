@@ -1,0 +1,822 @@
+[
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.053 segundos",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:30"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.880 segundos",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "consultar_base_conocimiento finalizada en 0.007 segundos",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: No hay documentos indexados o la base de conocimiento está vacía debido a un error de conexión.",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:32"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.728 segundos",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: REQUIERE_APROBACION_FINANZAS",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:34"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 2.564 segundos",
+        "timestamp": "2026-07-09 22:48:36"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: registrar_reporte_local",
+        "timestamp": "2026-07-09 22:48:36"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: registrar_reporte_local",
+        "timestamp": "2026-07-09 22:48:37"
+    },
+    {
+        "level": "INFO",
+        "message": "registrar_reporte_local finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 22:48:37"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: Reporte generado correctamente: data/reports\\20260709_224837_reporte_compra_600_usd.txt",
+        "timestamp": "2026-07-09 22:48:37"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:37"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.904 segundos",
+        "timestamp": "2026-07-09 22:48:38"
+    },
+    {
+        "level": "INFO",
+        "message": "Tiempo total: 8.311 segundos",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Respuesta final: El gasto de 600 USD requiere aprobación del área de Finanzas. Se ha generado un reporte obligatorio con los detalles de la auditoría.\n\n**Detalles del Reporte:**\n*   **Monto evaluado:** 600 USD\n*   **Estado:** REQUIERE APROBACIÓN DE FINANZAS\n*   **Observaciones:** Según las reglas corporativas, un gasto mayor a 500 USD requiere la aprobación del área de Finanzas y la generación de un reporte obligatorio. Se ha determinado que esta solicitud de compra de 600 USD debe ser revisada y aprobada por el área de Finanzas.\n\nEl reporte ha sido generado correctamente con el nombre de archivo: `reporte_compra_600_usd.txt`.\n\nNo fue posible revisar el procedimiento de compras ya que la base de conocimiento no contiene documentos indexados o está vacía.",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Llegó otra solicitud por un gasto de 300 USD. ¿Se requiere reporte?",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.010 segundos",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD']",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:39"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.581 segundos",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: APROBACION_AUTOMATICA",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 22:48:40"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 0.752 segundos",
+        "timestamp": "2026-07-09 22:48:41"
+    },
+    {
+        "level": "INFO",
+        "message": "Tiempo total: 2.452 segundos",
+        "timestamp": "2026-07-09 22:48:41"
+    },
+    {
+        "level": "INFO",
+        "message": "Respuesta final: No, no se requiere un reporte para un gasto de 300 USD. La solicitud de compra se aprueba automáticamente, ya que el monto es menor o igual a 500 USD.",
+        "timestamp": "2026-07-09 22:48:41"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:06"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 2.236 segundos",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "consultar_base_conocimiento finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: No hay documentos indexados o la base de conocimiento está vacía debido a un error de conexión.",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:08"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.749 segundos",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.011 segundos",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: REQUIERE_APROBACION_FINANZAS",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:10"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 2.114 segundos",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: registrar_reporte_local",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: registrar_reporte_local",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "registrar_reporte_local finalizada en 0.010 segundos",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: Reporte generado correctamente: data/reports\\20260709_231312_Reporte_Compra_600_USD.txt",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:12"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.749 segundos",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Tiempo total: 8.100 segundos",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Respuesta final: Se ha evaluado el gasto de 600 USD. De acuerdo con las reglas corporativas, este monto es mayor a 500 USD, por lo que **requiere aprobación del área de Finanzas**.\n\nSe ha generado un reporte obligatorio con los detalles de la evaluación y la necesidad de aprobación de Finanzas. El reporte se ha guardado como \"Reporte_Compra_600_USD.txt\".\n\nNo fue posible revisar el procedimiento de compras ya que la base de conocimiento no arrojó resultados.",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Llegó otra solicitud por un gasto de 300 USD. ¿Se requiere reporte?",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.009 segundos",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD']",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:14"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.710 segundos",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: APROBACION_AUTOMATICA",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:13:16"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 0.928 segundos",
+        "timestamp": "2026-07-09 23:13:17"
+    },
+    {
+        "level": "INFO",
+        "message": "Tiempo total: 2.753 segundos",
+        "timestamp": "2026-07-09 23:13:17"
+    },
+    {
+        "level": "INFO",
+        "message": "Respuesta final: El gasto de 300 USD ha sido **aprobado automáticamente**. De acuerdo con las reglas de negocio, no se requiere generar un reporte para montos iguales o inferiores a 500 USD.",
+        "timestamp": "2026-07-09 23:13:17"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.010 segundos",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:01"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.963 segundos",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "consultar_base_conocimiento finalizada en 0.013 segundos",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: No hay documentos indexados o la base de conocimiento está vacía debido a un error de conexión.",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:03"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 21.445 segundos",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.012 segundos",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: REQUIERE_APROBACION_FINANZAS",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:24"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.528 segundos",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: registrar_reporte_local",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: registrar_reporte_local",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "registrar_reporte_local finalizada en 0.025 segundos",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: Reporte generado correctamente: data/reports\\20260709_231726_reporte_compra_600_USD.txt",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:26"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 4.393 segundos",
+        "timestamp": "2026-07-09 23:17:30"
+    },
+    {
+        "level": "INFO",
+        "message": "Tiempo total: 29.641 segundos",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Respuesta final: Se ha analizado el gasto de 600 USD. De acuerdo con las reglas corporativas, este monto **requiere aprobación del área de Finanzas**.\n\nSe ha generado un reporte de auditoría obligatorio con el siguiente contenido:\n\"Reporte de Auditoría de Adquisiciones:\n\nMonto evaluado: 600 USD\nEstado: REQUIERE APROBACIÓN DE FINANZAS\nAcciones requeridas: Solicitar aprobación al área de Finanzas y generar este reporte obligatorio.\"\n\nEl reporte ha sido guardado como: `data/reports\\\\20260709_231726_reporte_compra_600_USD.txt`\n\nNo fue posible revisar el procedimiento de compras ya que la base de conocimiento no contiene documentos indexados o está vacía.",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Llegó otra solicitud por un gasto de 300 USD. ¿Se requiere reporte?",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.011 segundos",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD']",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:31"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 1.496 segundos",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: evaluar_solicitud_compra",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "INFO",
+        "message": "evaluar_solicitud_compra finalizada en 0.011 segundos",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: APROBACION_AUTOMATICA",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:17:32"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error en LLM: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.205807066s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}",
+        "timestamp": "2026-07-09 23:18:09"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.205807066s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}",
+        "timestamp": "2026-07-09 23:18:09"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.008 segundos",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:44:11"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error en LLM: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 11.781547371s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}",
+        "timestamp": "2026-07-09 23:44:49"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 11.781547371s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}",
+        "timestamp": "2026-07-09 23:44:49"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.009 segundos",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:48:15"
+    },
+    {
+        "level": "INFO",
+        "message": "LLM finalizada en 12.009 segundos",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "INFO",
+        "message": "Herramienta ejecutada: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: consultar_base_conocimiento",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "INFO",
+        "message": "consultar_base_conocimiento finalizada en 0.009 segundos",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "INFO",
+        "message": "Resultado herramienta: No hay documentos indexados o la base de conocimiento está vacía debido a un error de conexión.",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:48:27"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error en LLM: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.138530242s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+        "timestamp": "2026-07-09 23:49:03"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.138530242s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+        "timestamp": "2026-07-09 23:49:04"
+    },
+    {
+        "level": "INFO",
+        "message": "======================================================================",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "NUEVA SOLICITUD",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "Usuario: Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: Planner",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "Planner finalizada en 0.013 segundos",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "Plan generado: ['CONSULTAR_BASE_CONOCIMIENTO', 'EVALUAR_SOLICITUD', 'GENERAR_REPORTE']",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "INFO",
+        "message": "Iniciando etapa: LLM",
+        "timestamp": "2026-07-09 23:55:19"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error en LLM: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 3.747285521s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}",
+        "timestamp": "2026-07-09 23:55:57"
+    },
+    {
+        "level": "ERROR",
+        "message": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 3.747285521s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}",
+        "timestamp": "2026-07-09 23:55:57"
+    }
+]

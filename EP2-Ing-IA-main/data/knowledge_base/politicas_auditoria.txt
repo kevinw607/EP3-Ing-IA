@@ -1,0 +1,11 @@
+POLÍTICAS DE AUDITORÍA
+
+Todas las decisiones tomadas por agentes automatizados deben:
+
+- Mantener trazabilidad.
+- Registrar fecha y hora.
+- Registrar usuario solicitante.
+- Registrar herramientas utilizadas.
+- Conservar reportes generados.
+
+Los registros deben mantenerse por un período mínimo de 12 meses.

@@ -1,0 +1,8 @@
+timestamp,question,latency,cpu,memory,status
+2026-07-09 23:13:14,"Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",8.1,1.6,69.0,SUCCESS
+2026-07-09 23:13:17,Llegó otra solicitud por un gasto de 300 USD. ¿Se requiere reporte?,2.753,2.8,68.9,SUCCESS
+2026-07-09 23:17:31,"Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",29.641,49.1,70.4,SUCCESS
+2026-07-09 23:18:09,Llegó otra solicitud por un gasto de 300 USD. ¿Se requiere reporte?,38.879,21.6,71.7,ERROR
+2026-07-09 23:44:49,"Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",37.551,0.0,69.9,ERROR
+2026-07-09 23:49:04,"Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",48.417,6.1,70.4,ERROR
+2026-07-09 23:55:57,"Revisa el procedimiento de compras, analiza un gasto de 600 USD y genera un reporte.",37.559,5.7,70.8,ERROR

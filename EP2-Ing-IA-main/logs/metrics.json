@@ -1,0 +1,18 @@
+{
+    "total_requests": 7,
+    "successful_requests": 3,
+    "errors": 4,
+    "knowledge_queries": 0,
+    "approval_requests": 0,
+    "reports_generated": 1,
+    "average_latency": 13.497975905736288,
+    "min_latency": 2.7527008056640625,
+    "max_latency": 29.64085555076599,
+    "total_latency": 40.49392771720886,
+    "tool_calls": {
+        "consultar_base_conocimiento": 3,
+        "evaluar_solicitud_compra": 4,
+        "registrar_reporte_local": 2
+    },
+    "tool_errors": {}
+}

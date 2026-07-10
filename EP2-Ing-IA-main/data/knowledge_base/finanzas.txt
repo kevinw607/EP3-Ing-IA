@@ -1,0 +1,18 @@
+POLÍTICAS FINANCIERAS INTERNAS
+
+El departamento de Finanzas es responsable de aprobar solicitudes de compra superiores a 500 USD.
+
+Las compras deben evaluarse considerando:
+
+- Presupuesto disponible.
+- Justificación de negocio.
+- Riesgo financiero.
+- Impacto operativo.
+
+Una solicitud puede ser:
+
+- Aprobada.
+- Rechazada.
+- Escalada a Gerencia.
+
+Toda aprobación debe quedar documentada.

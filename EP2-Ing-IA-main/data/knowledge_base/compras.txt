@@ -1,0 +1,21 @@
+PROCEDIMIENTO CORPORATIVO DE COMPRAS
+
+Todas las solicitudes de compra deben ser evaluadas por el área de Operaciones.
+
+Reglas generales:
+
+1. Compras menores o iguales a 500 USD:
+   - No requieren aprobación financiera.
+   - Pueden ser aprobadas automáticamente.
+   - No requieren generación de reporte formal.
+
+2. Compras superiores a 500 USD:
+   - Requieren aprobación obligatoria del área de Finanzas.
+   - Debe generarse un reporte escrito.
+   - Debe mantenerse evidencia documental.
+
+3. Compras superiores a 5000 USD:
+   - Requieren aprobación de Gerencia.
+   - Deben adjuntar cotizaciones.
+
+4. Todas las decisiones deben quedar registradas para auditoría.

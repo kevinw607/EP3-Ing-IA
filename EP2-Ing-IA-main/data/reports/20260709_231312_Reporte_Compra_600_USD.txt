@@ -1,0 +1,3 @@
+Monto Evaluado: 600 USD
+Estado: Requiere aprobación del área de Finanzas.
+Observaciones: El monto excede los 500 USD, por lo que se requiere aprobación de Finanzas y la generación de este reporte. No se pudo recuperar el procedimiento de compras de la base de conocimiento.

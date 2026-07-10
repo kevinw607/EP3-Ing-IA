@@ -1,0 +1,36 @@
+CASO 001
+
+Solicitud:
+Compra de software por 750 USD.
+
+Resultado:
+Se requirió aprobación financiera.
+
+Reporte generado:
+SI.
+
+------------------------------------------------
+
+CASO 002
+
+Solicitud:
+Compra de material de oficina por 250 USD.
+
+Resultado:
+Aprobación automática.
+
+Reporte generado:
+NO.
+
+------------------------------------------------
+
+CASO 003
+
+Solicitud:
+Compra de licencias empresariales por 1200 USD.
+
+Resultado:
+Aprobación financiera requerida.
+
+Reporte generado:
+SI.
