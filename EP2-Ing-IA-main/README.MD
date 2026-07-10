@@ -23,6 +23,7 @@ Esta versión integra un Dashboard de Observabilidad en Tiempo Real que monitore
 
 El repositorio cuenta con una estructura de raíz interna optimizada para despliegues locales:
 
+```
 EP3-Ing-IA-main/
 └── EP3-Ing-IA-main/           # Carpeta raíz del proyecto y scripts
     ├── agent/                 # Lógica del agente, planificador estático y orquestador ReAct
@@ -34,6 +35,7 @@ EP3-Ing-IA-main/
     ├── .env                   # Archivo privado de credenciales (API Key)
     ├── main.py                # Script principal que gatilla los escenarios automáticos del agente
     └── requirements.txt       # Lista unificada de dependencias del ecosistema
+```
 
 ----------------------------------------------------------------------
 3. GUÍA PASO A PASO: INSTALACIÓN Y CONFIGURACIÓN
